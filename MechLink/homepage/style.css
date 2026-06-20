@@ -385,7 +385,6 @@ p, h1, h2, h3, span {
 .menu-items li :active {
     opacity: .75;
 }
-
 .menu-items li:nth-child(2) {
     color: rgb(0, 0, 70);
     font-weight: bold;
