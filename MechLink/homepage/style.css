@@ -1362,4 +1362,36 @@ p, h1, h2, h3, span {
     .footer__links > div {
         gap: 0.5rem;
     }
+
+    .login-pane.open {
+        right: calc(50vw - 50% + 1rem);
+        top: calc(50vh - 15rem);
+    }
+    
+    .sign-up-pane.open {
+        right: calc(50vw - 50% + 1rem);
+        top: calc(50vh - 15rem);
+    }
+    
+    .sign-up-pane > div:nth-child(5) > a {
+        width: 100%;
+    }
+    
+    .sign-up-pane > div:nth-child(5) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .login-pane > div:nth-child(5) > a {
+        width: 100%;
+    }
+    
+    .login-pane > div:nth-child(5) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .sign-up-pane {
+        height: 32rem;
+    }
 }
