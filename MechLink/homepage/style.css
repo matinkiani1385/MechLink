@@ -1116,9 +1116,6 @@ p, h1, h2, h3, span {
     color: black;
 }
 
-/*
-    1200  992  768  576
-*/
 @media (max-width: 992px) {
     .logoANDsearch > a {
         display: none;
