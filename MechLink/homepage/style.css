@@ -475,7 +475,7 @@ p, h1, h2, h3, span {
 }
 
 .sign-up-pane > div > div {
-    height: 7rem;
+    min-height: 7rem;
     padding: 1rem;
     direction: rtl;
 }
