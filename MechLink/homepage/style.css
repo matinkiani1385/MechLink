@@ -149,7 +149,6 @@ p, h1, h2, h3, span {
     transition: all 0.3s;
     margin-left: 2.5rem;
 }
-
 .header__actions button:nth-child(1):hover {
     background-color: rgb(228, 145, 31);
     color: white;
