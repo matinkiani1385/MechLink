@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>سفارش طراحی صنعتی و پروژه‌های مهندسی مکانیک-مک‌لینک</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__actions">
+            <a href="tel:021########">
+                <span class="tel-span">021- ########</span>
+            </a>
+            <div>
+                <button class="postJobButton">ثبت پروژه</button>
+                <button class="loginLabel">ورود</button>
+                <button class="signUpLabel">ثبت نام</button>
+            </div>
+        </div>
+        <div class="header__items">
+            <div class="logoANDsearch">
+                <div class="search-box">
+                    <input type="search" name="search-input" id="search_input" placeholder="جستجو">
+                    <button><img src="./pictures/Search-Icon.jpg" alt="Search-Icon"></button>
+                </div>
+                <a href="../homepage/index.html"><img class="logo" src="./pictures/MechLink-Logo.jpg" alt="MechLink-Logo"></a>
+            </div>
+            <a id="menu_link" class="menu-link"><img class="menu" src="./pictures/Menu-Icon.jpg" alt="Menu-Icon"></a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1>مسیر اجرای پروژه‌های صنعتی در مک‌لینک</h1>
+            <p>هر ایده‌ی صنعتی، از یک نقشه ساده تا تحلیل‌های پیچیده دینامیکی را در مک‌لینک به واقعیت تبدیل کنید. کافیست جزئیات فنی و استانداردهای مورد نظر خود را در فرم ثبت پروژه وارد کنید. متخصصین تاییدشده‌ی ما پس از بررسی اسناد، پیشنهادات فنی و مالی خود را ارسال می‌کنند. با استفاده از سیستم پرداخت امن و نظارت فنی مک‌لینک، پروژه‌ی خود را با دقت ۱۰۰٪ و ضمانت اجرایی تحویل بگیرید.</p>
+            <div>
+                <video src="#" controls poster="./pictures/Designer-Picture2.png"></video>
+            </div>
+        </section>
+        <section class="main__title">
+            <h2>برون‌سپاری هوشمند و اجرای سریع پروژه‌های مهندسی</h2>
+        </section>
+        <section class="main__form">
+            <div>
+                <label for="categoriesSelect">یک دسته بندی برای پروژه خود انتخاب کنید:</label>
+                <select name="categories-select" id="categoriesSelect">
+                    <option value="">انتخاب دسته‌بندی مهندسی...</option>
+                    <option value="op1">طراحی و مدل‌سازی سه‌بعدی (CAD)</option>
+                    <option value="op2">شبیه‌سازی و تحلیل مهندسی (CAE)</option>
+                    <option value="op3">مهندسی معکوس</option>
+                    <option value="op4">طراحی قالب و ابزارسازی</option>
+                    <option value="op5">ساخت و تولید (CAM)</option>
+                    <option value="op6">نقشه‌کشی و استانداردهای صنعتی</option>
+                    <option value="op7">پرینت سه‌بعدی و نمونه‌سازی سریع</option>
+                    <option value="op8">مشاوره فنی و بازرسی</option>
+                </select>
+            </div>
+            <div>
+                <label for="projectName">یک عنوان برای پروژه خود انتخاب کنید:</label>
+                <input type="text" name="project-name" id="projectName" placeholder="عنوان پروژه">
+                <label for="dLTime">زمان پیشنهادی شما برای تحویل پروژه چقدر است؟</label>
+                <input type="text" name="dl-time" id="dLTime" placeholder="تعداد روز">
+            </div>
+            <div>
+                <label for="projDec">درباره پروژه توضیح دهید:</label>
+                <textarea name="proj-dec" id="projDec" placeholder="درباره پروژه خود بنویسید و خروجی مدنظر خود را شرح دهید..."></textarea>
+            </div>
+            <div>
+                <label for="fileChooser">فایل یا عکسی از پروژه خود را آپلود کنید:</label>
+                <input type="file" name="file-chooser" id="fileChooser">
+            </div>
+            <div>
+                <label for="skillsDiv">به چه مهارت‌هایی نیاز دارید؟</label>
+                <div id="skillsDiv">
+                    <input type="text" name="required-skill1" id="requiredSkill1" placeholder="مهارت مورد نیاز">
+                    <button id="addButton">+</button>
+                </div>
+            </div>
+            <div>
+                <label for="budgetSelect">بودجه تخمینی شما چقدر است؟</label>
+                <select name="budget-select" id="budgetSelect">
+                    <option value="op1">300,000 تومان - 1,500,000 تومان</option>
+                    <option value="op2">1,500,000 تومان - 3,000,000 تومان</option>
+                    <option value="op3">3,000,000 تومان - 7,000,000 تومان</option>
+                    <option value="op4">7,000,000 تومان - 15,000,000 تومان</option>
+                    <option value="op5">15,000,000 تومان - 50,000,000 تومان</option>
+                    <option value="op6">50,000,000 تومان - 500,000,000 تومان</option>
+                </select>
+            </div>
+            <button type="submit">ثبت پروژه</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__desc">
+            <h3>مک‌لینک</h3>
+            <p>مک‌لینک (MechLink)، پلتفرم تخصصی صنعتی و برون‌سپاری پروژه‌های مهندسی مکانیک، با هدف ایجاد ارتباط هوشمند میان صنعت و نخبگان مهندسی راه‌اندازی شده است. در مک‌لینک می‌توانید پروژه‌های تخصصی خود از جمله: طراحی و مدل‌سازی سه‌بعدی، تحلیل‌های المان محدود (FEA) و دینامیک سیالات (CFD)، طراحی ماشین‌آلات، محاسبات هیدرولیک و پنوماتیک، نقشه‌کشی صنعتی، مهندسی معکوس، ساخت و تولید، متالورژی و انتخاب مواد، و همچنین آموزش‌های نرم‌افزاری تخصصی را به مجرب‌ترین متخصصان بسپارید. با مک‌لینک، چرخ صنعت دقیق‌تر می‌چرخد.</p>
+        </section>
+        <section class="footer__links">
+            <div>
+                <h3>طراح</h3>
+                <a href="#">پروژه‌ها</a>
+                <a href="#">نحوه تعامل و کار</a>
+                <a href="#">مهارت‌های دورکاری</a>
+            </div>
+            <div>
+                <h3>کارفرما</h3>
+                <a href="#">طراحان</a>
+                <a href="#">نمونه کارها</a>
+                <a href="#">خدمات</a>
+            </div>
+            <div>
+                <h3>مک‌لینک در یک نگاه</h3>
+                <a href="#">تماس با ما</a>
+                <a href="#">وبلاگ</a>
+                <a href="#">شرایط و قوانین</a>
+            </div>
+            <div>
+                <h3>با ما در ارتباط باشید</h3>
+                <p>
+                    <bdi>شماره تماس</bdi>
+                    &nbsp;
+                    <a href="tel:021########">
+                        ######## -021
+                    </a>
+                </p>
+                <p>
+                    <bdi>آدرس ایمیل</bdi>
+                    &nbsp;
+                    <a href="mailto:MechLink@Gmail.com">
+                        MechLink@Gmail.com
+                    </a>
+                </p>
+                <p><bdi id="copy-right">تمامی حقوق مادی و معنوی این وب سایت به شرکت مک‌لینک تعلق دارد</bdi></p>
+            </div>
+        </section>
+    </footer>
+    <div id="overlay" class="overlay"></div>
+    <nav id="side-menu" class="side-menu">
+        <div id="close-div" class="side-menu__top">
+            <img src="./pictures/MechLink-Logo.jpg" alt="MechLink-Logo">
+            <button id="close-btn">×</button>
+        </div>
+        <ul class="menu-items">
+            <li><button class="postJobButton">ثبت پروژه &nbsp;<span>+</span></button></li>
+            <li><a href="../homepage/index.html">صفحه اصلی<img src="./pictures/Home-Icon.jpg" alt="Home-Icon"></a></li>
+            <li><a class="signUpLabel">ثبت نام<img src="./pictures/SignUp-Icon.jpg" alt="SignUp-Icon"></a></li>
+            <li><a class="loginLabel">ورود<img src="./pictures/Login-Icon.jpg" alt="Login-Icon"></img></a></li>
+            <li><a href="#">پروژه‌ها<img src="./pictures/Projects_Icon.jpg" alt="Projects_Icon"></a></li>
+            <li><a href="#">خدمات<img src="./pictures/Services-Icon.jpg" alt="Services-Icon"></a></li>
+            <li><a href="#">طراحان<img src="./pictures/Designers-Icon.jpg" alt="Designers-Icon"></a></li>
+            <li><a href="#">نمونه کارها<img src="./pictures/Work-Icon.jpg" alt="Work-Icon"></a></li>
+        </ul>
+    </nav>
+    <nav id="signUpPane" class="sign-up-pane">
+        <h1>ثبت نام در <span>مک‌لینک</span></h1>
+        <div>
+            <div>
+                <div>
+                    <input type="radio" name="role-radio" id="roleRadio1">
+                    <label for="roleRadio1">طراح</label>
+                </div>
+                <p>شما فردی به دنبال کسب درآمد از انجام پروژه و دورکاری هستید.</p>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" name="role-radio" id="roleRadio2">
+                    <label for="roleRadio2">کارفرما</label>
+                </div>
+                <p>شما نیاز به برونسپاری پروژه و ارتقای کسب و کار خود دارید.</p>
+            </div>
+        </div>
+        <input type="tel" name="sign-up-tel" id="signUpTel" placeholder="شماره موبایل خود را وارد کنید.">
+        <button type="submit">ثبت نام</button>
+        <div>
+            <p>قبلاً در مک‌لینک ثبت نام کرده‌اید؟</p>
+            <a class="loginLabel">ورود به مک‌لینک</a>
+        </div>
+    </nav>
+    <nav id="loginPane" class="login-pane">
+        <h1>ورود به <span>مک‌لینک</span></h1>
+        <input type="email" name="login-tel" id="loginTel" placeholder="ایمیل یا شماره موبایل خود را وارد کنید.">
+        <input type="password" name="login-password" id="loginPassword" placeholder="رمز عبور خود را وارد کنید.">
+        <button type="submit">ورود</button>
+        <div>
+            <p>کاربر جدید هستید؟</p>
+            <a class="signUpLabel">ثبت نام در مک‌لینک</a>
+        </div>
+    </nav>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
