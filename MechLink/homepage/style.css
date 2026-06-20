@@ -435,6 +435,7 @@ p, h1, h2, h3, span {
     top: 0;
     right: -32rem;
     width: 28rem;
+    max-width: calc(100% - 2rem);
     height: 30rem;
     background-color: white;
     border-radius: 6px;
@@ -531,6 +532,7 @@ p, h1, h2, h3, span {
 
 .sign-up-pane > button:hover {
     cursor: pointer;
+    background-color: rgb(0, 0, 140);
 }
 
 .sign-up-pane > div:nth-child(5) {
@@ -549,6 +551,7 @@ p, h1, h2, h3, span {
 
 .sign-up-pane > div:nth-child(5) > a:hover {
     cursor: pointer;
+    text-shadow: 0 0 2px rgba(0, 0, 70, 0.4);
 }
 
 /*
@@ -560,6 +563,7 @@ p, h1, h2, h3, span {
     top: 0;
     right: -32rem;
     width: 28rem;
+    max-width: calc(100% - 2rem);
     height: 26rem;
     background-color: white;
     border-radius: 6px;
@@ -656,6 +660,7 @@ p, h1, h2, h3, span {
 
 .login-pane > button:hover {
     cursor: pointer;
+    background-color: rgb(0, 0, 140);
 }
 
 .login-pane > div:nth-child(5) {
@@ -674,6 +679,7 @@ p, h1, h2, h3, span {
 
 .login-pane > div:nth-child(5) > a:hover {
     cursor: pointer;
+    text-shadow: 0 0 2px rgba(0, 0, 70, 0.4);
 }
 
 /*
